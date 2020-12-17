@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+h1{
+    color: white;
+    font-family: verdana, arial;
+    font-style: italic;
+    font-weight: 1200px;
+    width: 400px;
+    height: 40px;
+    font-size: center;
+    margin-left: 70px;
+    padding: 0px;
+    padding-top: 5px;
+}
+.estilosMenu ul li{
+    color: black;
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: verdana, arial;
+    font-style: italic;
+    font-weight: 900;
+    font-size: center;
+    background-color:  rgb(102, 59, 102);
+    border: 2px solid  white;
+    padding: 1px;
+    text-align: center;
+    background-image: linear-gradient(to right, violet , rgb(102, 59, 102));
+}
+.fondoPagInicio{
+    background-color: rgb(102, 59, 102);
+    height: 125px;
+}
+@media only screen and (min-width:1200px){
+.gridMenu{
+    display:grid;
+    grid-template-rows: 40px;
+    grid-column-gap: 10px;
+    justify-items: end;
+    margin-right: 70px;
+    }
+}
+
+/*MAIN*/
+h2{
+    color: black;
+    font-family: verdana, arial;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.5rem; 
+    padding-bottom: 5px;
+    /*margin-top: 15px;*/
+    padding-top: 0px;
+    margin-left: 400px;
+}
+.h3Estilo{ 
+    color: black;
+    font-family: verdana, arial;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px; 
+    margin-left: 390px;
+}
+p{
+    color: black;
+    font-family: verdana, arial;
+    font-size: 0.75rem; 
+    padding: 0rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.listaServicios ul li{
+    color: black;
+    list-style-type: square;
+    margin-left: 400px;
+}
+.fondoPag{
+    background-color: rgb(243, 236, 236);
+    height: 600px;
+}
+.map a{
+    background-color:rgb(102, 59, 102);
+    text-decoration: none;
+    color: white;
+    font-family: verdana, arial;
+    font-style: italic;
+    font-weight: 900;
+    font-size: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+input{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border-color: rgb(243, 236, 236);
+    height: 20px;
+    width: 300px;
+}
+label{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.inputNo{
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+}
+.inputSi{
+    
+    height: 15px;
+    width: 15px;
+}
+.inputEnviar{
+    margin-left: 290px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(102, 59, 102);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 90px;
+}
+textarea{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 300;
+    height: 200;
+    border-color: rgb(243, 236, 236);
+}
+div{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+.imgServicios{
+    margin-left: 290px;
+}
+@media only screen and (min-width:1200px){
+.gridTrayectoria{
+    display:grid;
+    grid-template-columns: 50px 500px;
+    grid-column-gap: 150px;
+    }
+}
+@media only screen and (min-width:1200px){
+.gridFormacion{
+    display:grid;
+    grid-template-columns: 50px 300px;
+    grid-column-gap: 250px;
+    }
+}    
+/*FOOTER*/
+footer p{
+    background: black;
+    color: white;
+    font-family: verdana, arial;
+    font-size: 80%;
+    height: 20px;
+    width: 1200px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.pFooterCopyright{
+    margin-top: 10px;
+    background-color: black;
+}
+footer .pContactanos{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+footer .pContactanosAnimame:hover{
+    transform: scale(2,1);
+}
+footer .pTel{
+    margin-top: 0px;
+    margin-bottom: 1px; 
+}
+footer .pCel{
+    margin-top: 5px;
+    margin-bottom: 1px;  
+}
+footer .pSobre{
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.footerFondo{
+    background-color: black;
+    height: 200px;
+}
+
+@media only screen and (min-width:1200px){
+.gridFooter{
+    display:grid;
+    grid-template-rows: 40px;
+    grid-column-gap: 5px;
+    justify-items: center;
+    }
+}
+footer.social-icons p i.sobre{ 
+    font-size: 20px;
+    color: white;
+}
+footer.social-icons p i.tel{ 
+    font-size: 20px;
+    color: white;
+}
+footer.social-icons p i.cel{ 
+    font-size: 20px;
+    color: white;
+}
